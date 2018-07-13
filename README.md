@@ -4,8 +4,7 @@ Addressbook Tutorial
 This tutorial teaches you some of the basic concepts in [Vaadin Framework](https://vaadin.com). It is meant to be
 a fast read for learning how to get started - not an example on how application should be
 designed. Please note this example uses and requires Java 8 to work.
-
-![Addressbook Screenshot](addressbook_screenshot.png "Addressbook Screenshot")
+ 
 
 
 Running the example from the command line
@@ -23,7 +22,7 @@ These instructions were tested on IntelliJ IDEA 14 CE. You can get it from https
 
 To get the project up and running in IDEA, do:
 - File -> New -> Project from Version Control -> Git
-- The URL to use is https://github.com/vaadin/addressbook.git
+- Add your Git URL
 - If you get a message about "Non-managed pom.xml file found". Choose "Add as Maven Project"
 - If you get a message about no JDK or SDK being selected. Choose "Configure" and select your installed JDK. You can also set the JDK using File -> Project Structure
 - To start the project, find the "Maven Projects" tab on the right hand side of the screen and navigate to
@@ -38,7 +37,7 @@ These instructions were tested on NetBeans 8.0.2. You can get it from https://ww
 
 To checkout and run the project in NetBeans, do:
 - Team -> Git -> Clone
-- Set repository URL to https://github.com/vaadin/addressbook.git
+- Set repository URL.
 - Finish
 - Right click the imported project (Vaadin Addressbook Application) and select Run
 - Select GlassFish Server 4.1 -> Remember in Current IDE Session -> OK
@@ -54,7 +53,7 @@ To checkout and run the project in Eclipse, do:
 - Check out Maven Projects from SCM
 - Choose Git from SCM menu
   - If you do not see "Git" in the SCM menu, click "Find more SCM connectors in the m2e Marketplace" and install "m2e-egit". Restart Eclipse and start over.
-- Set the repository URL to https://github.com/vaadin/addressbook.git
+- Set the repository URL.
 - Right click the imported "addressbook" and choose Run As -> Maven Build...
   - Set the goal to "jetty:run" and click "Run"
 
